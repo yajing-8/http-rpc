@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>http-rpc</artifactId>
+        <groupId>com.ren.rpc</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>http-rpc-server</artifactId>
+    <dependencies>
+        <!--协议模块-->
+        <dependency>
+            <groupId>com.ren.rpc</groupId>
+            <artifactId>http-rpc-protocol</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--网络传输模块-->
+        <dependency>
+            <groupId>com.ren.rpc</groupId>
+            <artifactId>http-rpc-transport</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!--序列化模块-->
+        <dependency>
+            <groupId>com.ren.rpc</groupId>
+            <artifactId>http-rpc-serialize</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ren.rpc</groupId>
+            <artifactId>http-rpc-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
