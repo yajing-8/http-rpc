@@ -5,7 +5,7 @@
 ### 项目介绍
 
 http-rpc 是基于http协议实现的一个简单的RPC框架，主要分协议模块、序列化模块、网络传输模块、客户端模块、服务端模块，各模块职责及依赖关系
-详见[这里](https://mp.weixin.qq.com/s/z_v_zzw268KHhD94Eg2c8Q)。
+详见[这里](https://mp.weixin.qq.com/s/DPxnVCQNwtWwNcbY9R2c8Q)。
 
 
 ### 开发环境配置
